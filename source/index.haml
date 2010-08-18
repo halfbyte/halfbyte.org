@@ -1,0 +1,34 @@
+---
+layout: default
+title: Blog
+author: 
+disqus: 
+---
+%h2 engineer. developer. craftsman. artist.
+:markdown
+  I (halfbyte aka Jan Krutisch) am an **engineer** by education, a **developer** by profession, 
+  a **craftsman** by endurance and an **artist** by night.
+  
+  I **create** things and virtual things in the vague space between **technology**
+  and **arts**.
+  
+  I like to **play** around with all kinds of **interesting** technologies, but I am currently 
+  rooted (but not restricted to) in both **web development** (back to front) and **electronics**.
+  
+  I like to **help** other people creating (virtual) things. That's what I do for a **living**.
+
+  
+.call-me
+  Need me? Feel free to call me up at +49 175 2 93 53 45
+
+
+
+%h2 News
+.blog
+  - site.posts.sort_by(&:date).reverse[0..9].each_with_index do |post,index|
+    .article
+      %h3= link_to(post.title, post.url, {:class=>"title"})
+      .meta
+        - author = (page.respond_to?(:author) && page.author) ? 'by: ' + page.author + ' |' : ''
+        #{author} posted: #{post.date.strftime("%B #{post.date.day.ordinalize}, %Y")}
+        = (page.respond_to?(:updated) && page.updated) ? " | upated: #{page.updated}" : ''

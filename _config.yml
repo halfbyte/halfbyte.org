@@ -2,7 +2,7 @@ source: source
 destination: site
 markdown: rdiscount
 pygments: true
-permalink: /blog/:year/:month/:day/:title
+permalink: /news/:year/:month/:day/:title
 url: http://yoursite.com
 multiviews: true
 sass: false

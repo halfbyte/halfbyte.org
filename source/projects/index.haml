@@ -1,8 +1,46 @@
 ---
-title: Projects
+title: projects
 layout: default
 ---
 %h1 Projects
-:markdown
+:textile
   This section is more of a status board than anything else. It shows my current projects, 
   demos them if possible, and gives a simple indicator how far they are from being finished.
+  
+  
+  h2. The Cyborg Controller
+
+  This is an idea from a friend of mine from Berlin, the wonderful "Madeleine Bloom":http://www.madeleinebloom.com/. It will eventually be a wearable wireless MIDI controller of some sorts. I'm currently evaluating wireless technologies for that, to find something that is both reliable and cheap enough for our purposes.
+  
+  (No code released so far)
+  
+  h2. Nanoloop USB sync
+  
+  nanoloop is a crazy step sequencer for the Nintendo Gameboy, Gameboy Advance and the iPhone/iPod Touch. I hacked together a simple prototype of a USB device (Using the excellent USB stack for ATMega by "obdev":http://obdev.at) that will function as a midi device and will sync the Gameboy to your software sequencer. Oliver asked me to turn this into a real product including a way to backup the data from the cartridges. Currently I'm evaluating various possibilities to make the data exchange happen.
+  
+  You can find the current software and schematics on the "githubs":http://github.com/halfbyte/nanosync-usb.
+  
+  h2. Accelerometer fun
+  
+  With a lot of help from the great "Alexander Weber":http://tinkerlog.com and my Brother Karsten I built a sonification of a bungee trampoline for the 2009 Lichtklangnacht in Rostock. After that we came up with a lot of fun ideas on how to utilize the hardware (Which was basically a simple wireless accelerometer). Currently I'm waiting for some hardware samples of a new version from Alex.
+  
+  More on the "dedicated site":/projects/accelerometer-fun.html
+  
+  h2. Webloop
+  
+  An ongoing experiment in UI, javascript sound synthesis and web audio and my contribution to the Music Hackdays Stockholm and London in 2010. Gets some love every now and then. One big next step would be to factor out the javascript library I wrote to make realtime sound output possible on most browsers either via direct API (meaning Audio Data API on Firefox nightlies or Web Audio API on special Webkit builds) or via a small flash plugin.
+  
+  Live at "webloop.pixelpoke.de":http://webloop.pixelpoke.de.
+  
+  Codes at the "githubs":http://github.com/halfbyte/webloop.git.
+  
+  h2. Echonest streamgraphs
+  
+  An experiment in both using the echonest feed API's and using raphael.js/graphael.js to draw streamgraphs.
+  
+  Done in collaboration with my colleague Wolfgang Wopperer, originally for the Music Hackday Amsterdam 2009. Still need to extract the streamgraphing part as a separate library in g.raphael style.
+  
+  Codes at the "githubs":http://github.com/halfbyte/echonest.streamgraphing.org.
+  
+  
+  

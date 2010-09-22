@@ -1,0 +1,12 @@
+---
+title: accelerometer fun
+layout: default
+---
+h1. Accel fun
+
+Here's a video of the stuff I did at the Lichtklangnacht in Rostock.
+
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/jP24ht-JSfw&rel=0&color1=0xb1b1b1&color2=0xd0d0d0&hl=en_US&feature=player_embedded&fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/jP24ht-JSfw&rel=0&color1=0xb1b1b1&color2=0xd0d0d0&hl=en_US&feature=player_embedded&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="385"></embed></object>
+
+For some technical Background on the hardware, read "this Article":http://tinkerlog.com/2010/02/07/remote-accelerometer/ on Alex' Blog which mostly describes the new hardware I hope to be playing with, soon.
+
